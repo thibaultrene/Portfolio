@@ -1,0 +1,522 @@
+@font-face
+{
+  font-family: Rocket Wildness;
+  src: url("ROCKET-WILDNESS.otf");
+  font-display: auto;
+}
+
+/* commun */
+
+body
+{
+  background-color: #c7d0d6;
+}
+
+.titresparties
+{
+  text-align: center;
+  color: black;
+  font-family: Rocket Wildness;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  top: 30px;
+  height: 80px;
+  position: relative;
+  text-shadow: 10px 10px 15px black
+}
+
+.titrespartieswhite
+{
+  text-align: center;
+  color: white;
+  font-family: Rocket Wildness;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  top: 30px;
+  height: 80px;
+  position: relative;
+  text-shadow: 5px 5px 20px white
+}
+
+/* fin commun */
+
+
+
+/* navbar */
+.mon-navbar
+{
+  position: static;
+  max-width: 100%;
+}
+
+.nav-color
+{
+  background-color: #012326;
+}
+
+.bg-dark     /*Background de la Navbar globale*/
+{
+  background-color: #012326!important;
+}
+
+.titre-nom
+{
+    font-family: Rocket Wildness;
+    color: #5BBF2C!important;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    right: 25px;
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) 
+{
+  .titre-nom 
+  {
+    font-size: 24px;
+  }
+}
+
+.btn-navbar
+{
+  position: relative;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.titre-onglets
+{
+  color: white!important;
+  font-size: 20px;
+}
+
+.titre-onglets:hover
+{
+  color: #5BBF2C!important;
+}
+
+.sous-titre-onglets
+{
+  background-color: #012326;
+  color: white;
+  border: none;
+}
+
+.sous-titre-onglets:hover
+{
+  background-color: #012326;
+  color: #5BBF2C;
+  border: none;
+}
+/* end navbar */
+
+/*Image accueil*/
+.fondimageindex img
+{
+  width: 100%;
+  height: auto;
+}
+
+.imgaccueil
+{
+  position: relative;
+  margin-top: 78px;
+}
+
+@media screen and (max-width: 400px) 
+{
+  .imgaccueil 
+  {
+    position: relative;
+    margin-top: 62px;
+  }
+}
+
+/*Fin image accueil*/
+
+
+/*Presentation*/
+
+.bdpresentation
+{
+  background-color: #d7ffc4;
+}
+
+.ancragesparties
+{
+  padding-top: 80px;
+}
+
+.parapresentation
+{
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+  line-height: 50px;
+}
+
+
+@media (max-width: 1000px) {
+  .parapresentation
+  {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .parapresentation
+  {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 40px;
+  }
+}
+/*Fin Presentation*/
+
+/*CV*/
+
+.iframecv
+{
+  width: 80%; 
+  height: 1200px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+@media (max-width: 1000px) {
+  .iframecv
+  {
+    width: 80%; 
+    height: 800px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .iframecv
+  {
+    width: 98%; 
+    height: 600px;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}
+
+/*Fin CV*/
+
+/*Stage*/
+
+.bdstage
+{
+  background-color: #b1d9f8;
+}
+
+.imgpixeltech
+{
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.parastage
+{
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  line-height: 50px;
+}
+
+.imgapplipixel
+{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 1px solid black;
+}
+
+@media (max-width: 1000px) {
+  .imgpixeltech
+  {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  
+  .parastage
+  {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 50px;
+  }
+  
+  .imgapplipixel
+  {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid black;
+  }
+}
+
+@media (max-width: 600px) {
+  .imgpixeltech
+  {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  .parastage
+  {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;    
+    line-height: 50px;
+  }
+  
+  .imgapplipixel
+  {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid black;
+  }
+}
+
+/*Fin Stage*/
+
+/*Projet 1ère année*/
+
+.bdprojet1
+{
+  background-color: #f0e9f7;
+}
+
+.carouselprojet1
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgcarousel
+{
+  width: 100%;
+}
+
+/*Fin Projet 1ère année*/
+
+/*Projet 2ème année*/
+
+.bdprojet2
+{
+  background-color: #dadada;
+}
+
+.carouselprojet3
+{
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+/*Fin Projet 2ème année*/
+
+/*Veilles*/
+
+.bdtechno
+{
+  background-color: #292929;
+}
+
+.bdjuri
+{
+  background-color: #ca9797;
+}
+
+.timeline {
+    border-left: 3px solid #5BBF2C;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: rgb(230, 230, 230);
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 90%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #275712;
+    box-shadow: 0 0 0 3px #275712;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+.litechno
+{
+  color: white;
+}
+
+.imgveilletechno
+{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.coltextveille
+{
+  padding-top: 20px;
+}
+
+.card 
+{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding-left: 3px;
+  color: black;
+  background-color: #a9b9a2;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover 
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: black;
+  text-decoration: none;
+}
+
+/*Fin Veilles*/
+
+/*Compétences*/
+
+.bdcompetences
+{
+  background-color: #c5ffe7;
+}
+
+/*Fin Compétences*/
