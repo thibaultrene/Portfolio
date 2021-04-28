@@ -519,4 +519,44 @@ body
   background-color: #c5ffe7;
 }
 
+.titrescompetences
+{
+  text-align: center;
+  font-size: 35px;
+}
+
+.imgcompetences
+{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.imgcompetences2
+{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+.imgcompetences3
+{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 40%;
+  margin-bottom: 40%;
+}
+
+.cardcompetences
+{
+  background-color: white;
+}
+
+
+
 /*Fin Compétences*/
