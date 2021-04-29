@@ -494,6 +494,15 @@ body
   color: white;
 }
 
+@media (max-width: 767px) 
+{
+  .litechno
+  {
+    color: black;
+  }
+}
+
+
 .imgveilletechno
 {
   max-width: 100%;
