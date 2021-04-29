@@ -40,6 +40,20 @@ body
   text-shadow: 5px 5px 20px white
 }
 
+.btntelechargement
+{
+  background-color: yellow;
+  border-radius: 20px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+.btntelechargement:hover
+{
+  background-color: rgb(243, 243, 10);
+}
+
 /* fin commun */
 
 
@@ -557,6 +571,33 @@ body
   background-color: white;
 }
 
+.iframecomp
+{
+  width: 80%; 
+  height: 950px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+@media (max-width: 1000px) {
+  .iframecomp
+  {
+    width: 80%; 
+    height: 600px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .iframecomp
+  {
+    width: 98%; 
+    height: 400px;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+}
 
 
 /*Fin Compétences*/
