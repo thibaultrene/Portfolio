@@ -51,7 +51,13 @@ body
 
 .btntelechargement:hover
 {
-  background-color: rgb(243, 243, 10);
+  background-color: #222529;
+  color: yellow
+}
+
+.abutton:hover
+{
+  text-decoration: none;
 }
 
 /* fin commun */
@@ -360,6 +366,22 @@ body
   margin-left: 40%;
   margin-right: 40%;
 }
+
+.btnkeepfit
+{
+  background-color: #40e6A6;
+  border-radius: 20px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+.btnkeepfit:hover
+{
+  background-color: #222529;
+  color: #40e6A6;
+}
+
 /*Fin Projet 2ème année*/
 
 /*Veilles*/
